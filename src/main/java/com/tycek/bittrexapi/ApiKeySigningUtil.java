@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Base64;
 
-public class ApiKeySigningUtil {
+class ApiKeySigningUtil {
 
     private static final String ALGORITHM = "HmacSHA512";
     private static final int NONCE_BYTE_LENGTH = 32;

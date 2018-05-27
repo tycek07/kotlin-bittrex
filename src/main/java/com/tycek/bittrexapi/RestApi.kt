@@ -21,7 +21,7 @@ import java.math.BigDecimal
 
 //TODO: throw excpetion when wrpapping object returns success = false
 
-class RestApi() {
+public class RestApi() {
     private lateinit var apiKey: String
     private lateinit var secret: String
     private lateinit var bittrexApi: BittrexApi
